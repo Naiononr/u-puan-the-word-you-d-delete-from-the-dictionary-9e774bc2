@@ -1,8 +1,20 @@
 """The Word You'd Delete From the Dictionary — entry writer.
 
-Draft pick: "maybe" — deleting it would force everyone to finally
-commit to a yes or a no: no more "maybe later", no more maybes on
-RSVPs, dates or deadlines. The joke is the social gap it leaves.
+Final pick: "redundant".
+
+The deletion is the joke, and it lands at first sight:
+
+- "Redundant" means already extra, more than needed — so deleting it
+  removes nothing at all, twice over. The word is the one entry in
+  the dictionary whose erasure proves its own definition.
+- It also means laid off: to delete "redundant" is to make
+  "redundant" redundant, to give the word itself the sack. No other
+  pick fires its own headword.
+
+It is a real, instantly recognised word, spelled exactly, with the
+humour coming from the word itself — its double meaning and the
+gap-free gap it leaves — not from shock, and it is a fresher pick
+than the field's first thoughts.
 
 Writes the single word, exactly, to /output/entry.txt (override with
 ENTRY_OUTPUT for local runs). Deterministic, stdlib only.
@@ -11,7 +23,7 @@ ENTRY_OUTPUT for local runs). Deterministic, stdlib only.
 import os
 import tempfile
 
-ENTRY_TEXT = "maybe"
+ENTRY_TEXT = "redundant"
 
 
 def main() -> None:
